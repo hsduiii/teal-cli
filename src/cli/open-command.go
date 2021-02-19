@@ -14,6 +14,7 @@ var OpenCommand *cli.Command = &cli.Command{
 	Name:    "open",
 	Usage:   "Open one of my personal projects",
 	Aliases: []string{"o"},
+	Flags:   GetOpenFlags(),
 	Action: func(ctx *cli.Context) error {
 		ctx.NArg()
 		if ctx.NumFlags() == 0 {
