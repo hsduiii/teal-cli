@@ -10,7 +10,7 @@
 
     ./teal-cli
 
-#### GET CURRICULUM
+#### SHOW MY CV
 
     ./teal-cli show --info cv
 
